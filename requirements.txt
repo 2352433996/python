@@ -1,7 +1,5 @@
-PyMySQL	0.9.3	0.9.3
-certifi==2019.11.28
-chardet==3.0.4
-idna==2.8	2.8
+PyMySQL==0.9.3
+idna==2.8
 pip==19.2.3
 requests==2.22.0
 setuptools==41.2.0
