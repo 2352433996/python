@@ -5,5 +5,4 @@
 > > > login_up.py 注册  
 >
 > README.md  
-> requirements.txt
-
+> requirements.txt  
