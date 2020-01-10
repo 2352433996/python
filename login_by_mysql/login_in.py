@@ -1,3 +1,9 @@
+import sys
+import os
+base_dir = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
+print("file：", base_dir)
+sys.path.append(base_dir)
+from the_sql_statement import sql_users
 import pymysql
 import time
 
@@ -5,9 +11,9 @@ import time
 now = time.strftime('%Y-%m-%d %H:%M:%S')
 now1 = time.strftime('%Y-%m-%d')
 try:
-    user_name = 'adm1in'
+    user_name = 'admin'
     password = '123456'
-    login_type= 0
+    login_type = 0
     login_time = now
     user_input = [user_name, password]
     user_wro = [user_name, login_time]
