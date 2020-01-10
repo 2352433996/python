@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfbb6c2b-d2f2-49cf-9b07-4dcca42c59b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/the_sql_statement/sql_users.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_by_mysql/login_in.py" beforeDir="false" afterPath="$PROJECT_DIR$/login_by_mysql/login_in.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -202,10 +200,10 @@
     <state width="1419" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578483684252" />
     <state width="620" height="210" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1578641185925" />
     <state width="604" height="212" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1578448281714" />
-    <state x="229" y="73" key="SettingsEditor" timestamp="1578557182536">
+    <state x="229" y="73" key="SettingsEditor" timestamp="1578643438426">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="229" y="73" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1578557182536" />
+    <state x="229" y="73" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1578643438426" />
     <state x="229" y="73" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1578448472319" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1578483565118">
       <screen x="0" y="0" width="1440" height="900" />

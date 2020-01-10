@@ -45,7 +45,6 @@ try:
             if int(psw[0][0]) >= 10:
                 pass
             print("【登录成功】")
-
     cus1.close()
     conn.close()
 except Exception as e:
