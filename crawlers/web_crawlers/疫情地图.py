@@ -10,6 +10,7 @@ if __name__ == "__main__":
     }
     response = requests.get(url=url, params=params, headers=headers)
     data = response.text
+    # print(data)
     with open("疫情详细地图.html", "w", encoding="utf-8") as fp:
         fp.write(data)
         print("爬取数据成功！！!")

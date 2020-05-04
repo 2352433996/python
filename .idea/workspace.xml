@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfbb6c2b-d2f2-49cf-9b07-4dcca42c59b0" name="Default Changelist" comment="" />
+    <list default="true" id="dfbb6c2b-d2f2-49cf-9b07-4dcca42c59b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawlers/web_crawlers/疫情地图.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawlers/web_crawlers/疫情地图.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_by_mysql/login_in.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_by_mysql/login_up.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,11 +25,11 @@
   <component name="ProjectId" id="1W42iSIBJ1mt6y6r1emFwLqD8vQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -35,7 +40,28 @@
       <recent name="$PROJECT_DIR$/the_sql_statement" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.login_in (1)">
+  <component name="RunManager" selected="Python.疫情地图">
+    <configuration name="疫情地图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="login_by_mysql" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawlers/web_crawlers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawlers/web_crawlers/疫情地图.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="login_in (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="login_by_mysql" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,24 +148,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.疫情地图" />
         <item itemvalue="Python.login_in (1)" />
         <item itemvalue="Python.sql_users" />
         <item itemvalue="Python.login_in" />
         <item itemvalue="Python.login_up" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>$PROJECT_DIR$/../.subversion</configuration>
@@ -158,54 +173,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="602" y="100" key="#Inspections" timestamp="1578638243239">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state x="602" y="100" key="#Inspections/0.23.1440.821@0.23.1440.821" timestamp="1578638243239" />
-    <state x="450" y="243" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578573827220">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state x="450" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.821@0.23.1440.821" timestamp="1578573827220" />
-    <state x="351" y="55" key="CommitChangelistDialog2" timestamp="1578449764870">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588585111168">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="351" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578449764870" />
-    <state x="527" y="358" key="Github.CreateGistDialog" timestamp="1578450632687">
-      <screen x="0" y="23" width="1440" height="822" />
-    </state>
-    <state x="527" y="358" key="Github.CreateGistDialog/0.23.1440.822@0.23.1440.822" timestamp="1578450632687" />
-    <state width="620" height="210" key="GridCell.Tab.0.bottom" timestamp="1578641185925">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state width="1419" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578483684253" />
-    <state width="620" height="210" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578641185925" />
-    <state width="604" height="212" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578448281714" />
-    <state width="620" height="210" key="GridCell.Tab.0.center" timestamp="1578641185924">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state width="1419" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578483684252" />
-    <state width="620" height="210" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578641185924" />
-    <state width="604" height="212" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1578448281713" />
-    <state width="620" height="210" key="GridCell.Tab.0.left" timestamp="1578641185924">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state width="1419" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578483684251" />
-    <state width="620" height="210" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578641185924" />
-    <state width="604" height="212" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1578448281713" />
-    <state width="620" height="210" key="GridCell.Tab.0.right" timestamp="1578641185925">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state width="1419" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578483684252" />
-    <state width="620" height="210" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1578641185925" />
-    <state width="604" height="212" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1578448281714" />
-    <state x="229" y="73" key="SettingsEditor" timestamp="1578643438426">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state x="229" y="73" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1578643438426" />
-    <state x="229" y="73" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1578448472319" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1578483565118">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1588585111168" />
+    <state width="1419" height="243" key="GridCell.Tab.0.bottom" timestamp="1588585030014">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578483565118" />
+    <state width="1419" height="243" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588585030014" />
+    <state width="1419" height="243" key="GridCell.Tab.0.center" timestamp="1588585030013">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="243" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588585030013" />
+    <state width="1419" height="243" key="GridCell.Tab.0.left" timestamp="1588585030012">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="243" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588585030012" />
+    <state width="1419" height="243" key="GridCell.Tab.0.right" timestamp="1588585030014">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="243" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588585030014" />
   </component>
 </project>

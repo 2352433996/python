@@ -1,13 +1,13 @@
 import sys
 import os
+
 base_dir = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 print("file：", base_dir)
 sys.path.append(base_dir)
+print("file：", base_dir)
 from the_sql_statement import sql_users
-import pymysql
+
 import time
-
-
 now = time.strftime('%Y-%m-%d %H:%M:%S')
 now1 = time.strftime('%Y-%m-%d')
 try:
@@ -20,9 +20,8 @@ try:
     login_tp = [user_name, login_type, login_time]
     get_user_input = [user_name, password, login_time]
 
-    conn = pymysql.connect(host="localhost", port=3306, user="root", passwd="123456", db="my_python",
-                           charset="utf8")
-    cus1 = conn.cursor()
+    sql_users.d.select_user()
+
     select_user = 'select * from users where user_name=%s and password=%s'
     select_dis = 'select count(*) from disable_login where user_name=%s and to_days(login_time) = to_days(\"%r\")'
     insert_dis = 'insert into disable_login(id,user_name,password,login_time) values(id,%s,%s,%s)'

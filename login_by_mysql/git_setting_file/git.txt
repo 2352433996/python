@@ -1,0 +1,58 @@
+Git下载地址：https://git-scm.com/downloads
+
+安装简介：
+https://www.cnblogs.com/xiaoleiel/p/8300944.html
+https://www.liaoxuefeng.com/wiki/896043488029600/896067074338496
+http://www.softwhy.com/article-8459-1.html
+
+配置git：
+生成公钥文件：
+$ ssh-keygen -t rsa -C "2352433996@qq.com"
+
+一直按enter就好，生成 /Users/wangjunjie/.ssh/id_rsa.pub 
+GitHub——Account Settings——SSH Keys，Add SSH Key, title随便填，粘贴key
+校验Git连接：
+$ ssh -T git@github.com
+创建本地用户名称(提交代码便于识别提交者)
+$ git config --global user.name "jie"
+$ git config --global user.email "2352433996@qq.com"
+添加远程地址：
+git remote add origin git@github.com:2352433996/python.git
+
+第一次提交：
+$ git add README
+$ git commit -m "first commit"
+提交代码:
+$ git status
+$ git diff
+# 添加到暂存区
+$ git add .
+# 绕过暂存区直接提交到当前分支
+$ git commit -am "提交master分支"
+上传到GitHub：
+$ git push origin master
+查看修改的文件列表
+$ git status
+查看修改的内容
+$ git diff
+查看的分支
+$ git branch
+$ cat .git/HEAD
+创建分支
+$ git branch master
+强行创建分支，会覆盖原有分支（慎用）
+$ git branch -f master
+切换分支
+$ git checkout Develop
+创建并切换分支
+$ checkout -b test
+强行创建并切换分支
+$ checkout -B test
+修改分支名称test1-->test
+$ git branch -m test1 test
+删除指定分支（一个、多个）###不能够在当前分支删除分支本身###
+$ git branch -d test
+$ git branch -d test test1
+代码为合并、强制删除分支
+$ git branch -D test
+
